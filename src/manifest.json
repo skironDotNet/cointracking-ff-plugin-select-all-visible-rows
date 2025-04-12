@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "CoinTracking Row Selector",
+  "version": "1.0",
+  "description": "Adds a select-all checkbox to CoinTracking trades table.",
+  "permissions": ["scripting"],
+  "content_scripts": [
+    {
+      "matches": ["*://cointracking.info/enter_coins.php*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
+
