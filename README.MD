@@ -1,6 +1,8 @@
 # CoinTracking Row Selector
 
-Adds a select-all checkbox to CoinTracking trades table.
+### Adds a select-all checkbox to CoinTracking trades table.
+
+This plugin is **for FireFox and LibreWolf only**. Use AI to convert to for Chrome and others.
 
 ## How to Use
 
